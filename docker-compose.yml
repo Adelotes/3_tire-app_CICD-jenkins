@@ -89,7 +89,7 @@ services:
     restart: unless-stopped
     ports:
       # Expose HTTP port for web traffic
-      - "80:80"
+      - "5173:80"
     depends_on:
       # Ensure backend is healthy before starting frontend
       backend:
