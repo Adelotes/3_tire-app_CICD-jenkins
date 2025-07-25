@@ -65,7 +65,6 @@ FROM node:20-alpine AS development
 # Set working directory
 WORKDIR /app
 
-# Copy package files
 COPY package*.json ./
 
 # Install all dependencies including devDependencies
